@@ -18,6 +18,7 @@ class CreateTransactionService {
     const transactionRepository = getCustomRepository(TransactionRepository);
 
     const categoryRepository = getRepository(Category);
+    console.log(Category)
 
     let transactionCategory = await categoryRepository.findOne({
       where:{

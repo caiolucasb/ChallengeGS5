@@ -13,7 +13,7 @@ export default class CreateRelationCategoryTransaction1598898384300 implements M
         name: 'TransactionCategory',
         columnNames: ['category_id'],
         referencedColumnNames: ['id'],
-        referencedTableName: 'category',
+        referencedTableName: 'categories',
         onUpdate: 'CASCADE',
         onDelete: 'SET NULL'
 
