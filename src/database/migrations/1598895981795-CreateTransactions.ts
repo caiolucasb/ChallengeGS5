@@ -28,11 +28,6 @@ export default class CreateTransactions1598895981795 implements MigrationInterfa
                 type: 'varchar'
               },
               {
-                name: 'category_id',
-                type: 'uuid',
-                isNullable: true
-              },
-              {
                 name: 'created_at',
                 type: 'timestamp',
                 default: 'now()'
